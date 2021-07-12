@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>Moneygramm</title>
+</head>
+
+<body>
+    <h1 class="text-center text-primary mt-4">Pulingizni almashtiring </h1>
+    <div class="container w-50 pt-5">
+        <form class="form d-flex align-items-center justify-content-around mx-auto">
+            <input class="user-input form-control w-25" type="text" name="user-input"
+                placeholder="Pulingizni kiriting" />
+
+                <span class="text-primary text-center h4"><<=====>></span>
+            <select class="select form-select w-25" name="user-currency" id="user-currency">
+                <option value="10630.75">Usd</option>
+                <option value="144.62">Rubl</option>
+                <option value="12585.63">Evro</option>
+            </select>
+
+            <button type="submit" class="form-button w-25 btn btn-primary d-block">
+                Change
+            </button>
+        </form>
+        <div class="d-flex d-block mx-auto">
+            <p class="mt-4 me-4 h2">Result ===>>></p>
+            <p class="result text-center h2 mt-4"></p>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
